@@ -1,7 +1,7 @@
 
 class ThreadDemo implements Runnable {
 
-	// TODO : Implplement run method to print the time our method
+	// TODO : Implement run method to print the timeout 
 	@Override
 	public void run(){
 
@@ -25,7 +25,7 @@ class ThreadDemo implements Runnable {
 class ThreadTest {
 		public static void main(String[] args) {
 	
-		ThreadDemo t=new ThreadDemo();
+		ThreadDemo t=new ThreadDemo();  //Creating an object to threadDemo class
 			
 			t.run();
 		}
